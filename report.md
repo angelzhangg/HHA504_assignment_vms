@@ -6,7 +6,22 @@ The objective of this assignment is to provide hands-on experience with managing
   - Navigate to the Azure portal and create a new Virtual Machine.
   - Choose a basic configuration (e.g., Ubuntu Server, Standard B1s size).
   - Start the VM and allow it to run for a few minutes.
- 
+![vm](https://github.com/user-attachments/assets/c6fa0b0a-7b06-439a-8b4a-af51874161e8)
+![vm error](https://github.com/user-attachments/assets/5780f7b8-bd15-45c0-b540-3446506f44db)
+
+> I ran into some issues when running my VM on Azure. The standard configuration(Standard B1s) was not available to me as were many of the other sizes. I can only assume there was some permission issues that were not resolved with my student account. I played around and found that EC96as worked as a size however, when I went to review and create, I was unable to proceed to the next step. Thus, my validation failed.
+
+- **GCP:**
+  - Access the Google Cloud Console and create a new VM instance using Compute Engine.
+  - Select a basic configuration (e.g., Debian GNU/Linux, e2-micro instance type).
+  - Start the VM and let it run for a few minutes.
+  - Stop the VM and document the steps you followed.
+![gcp vm](https://github.com/user-attachments/assets/5805a05e-352c-46c7-b1cd-2d3d26663ac0)
+![gcp vm details](https://github.com/user-attachments/assets/bafa1f8f-728e-4efe-b2d9-bb376253df3f)
+![gcp vm details2](https://github.com/user-attachments/assets/48f9d39f-a770-44f9-8800-62a6b624d19c)
+
+> In GCP, I was able to create a VM much easier. I selected the basic configurations and let it run for a few minutes before I stopped the VM.
+
 ### 2. Monitor VM Costs
 - **Azure:**
   - After starting and stopping the VM, navigate to the Cost Management and Billing section.
